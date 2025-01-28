@@ -17,6 +17,8 @@
                       alt="Image 1"></div>
             <div><img class="w-full lg:h-[700px] object-cover" src="{{asset('assets/images/slider3.jpg')}}"
                       alt="Image 1"></div>
+            <div><img class="w-full lg:h-[700px] object-cover" src="{{asset('assets/images/original/4.JPG')}}"
+                      alt="Image 1"></div>
         </div>
         <div class="w-full p-4 mt-6">
             <div class="w-full  flex flex-col items-center">
@@ -29,6 +31,7 @@
                          alt="">
                 </div>
             </div>
+
             <div class="mx-auto lg:w-[80%] md:w-[90%] w-full">
                 <div class=" grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 py-12 lg:px-4 md:px-4 px-0 gap-6">
                     <div class="w-full bg-white rounded-md shadow-lg shadow-black/20 flex flex-col justify-between group">
@@ -40,10 +43,16 @@
                                 <p class="text-black/70 text-sm font-normal mt-4">गांव वासियों के सहयोग से मंदिर में स्तम्भ स्थापित किये गये</p>
                             </div>
                         </div>
-                        <div class="px-2 py-2">
-                            <button class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Read More <i class="fa fa-angles-right ml-4"></i></span>  </button>
-                        </div>
+{{--                        <div class="px-2 py-2">--}}
+{{--                            <button class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Read More <i class="fa fa-angles-right ml-4"></i></span>  </button>--}}
+{{--                        </div>--}}
                     </div>
+                </div>
+            </div>
+
+            <div class="relative w-full lg:h-[700px] md:h-[600px] sm:h-[500px] h-[300px] rounded-md bg-cover bg-center" style="background-image: url({{asset('assets/images/original/4.JPG')}});">
+                <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+                <div class="relative z-10 flex items-center justify-center h-full">
                 </div>
             </div>
 
@@ -57,6 +66,7 @@
                          alt="">
                 </div>
             </div>
+
             <div class="mx-auto lg:w-[80%] md:w-[90%] w-full">
                 <div class=" grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 py-12 lg:px-4 md:px-4 px-0 gap-6">
                     <div class="w-full bg-white rounded-md shadow-lg shadow-black/20 flex flex-col justify-between">
@@ -118,36 +128,26 @@
             </div>
 
 
-            <div class="w-full mt-12  flex flex-col items-center">
-                <div class="bg-white flex flex-col items-center mx-auto">
-                    <span class="lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-semibold text-primary text-center">Gallery</span>
-                    <span class="lg:text-sm md:text-sm sm:text-sm text-xs font-medium text-black/80">OUR GALLERY</span>
+            <div class="relative w-full rounded-md  grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 ">
+                <!-- Background Video -->
+                <div>
+                    <img src="{{asset('assets/images/original/6.JPG')}}" alt="">
                 </div>
-                <div class="lg:w-[50%] md:w-[70%] sm:w-[80%] w-full h-[3px] rounded-full mx-auto mt-4">
-                    <img src="{{asset('assets/images/bgPattern.jpg')}}" class="w-full h-full object-cover rounded-full"
-                         alt="">
+                <div>
+                    <video class=" w-full h-full object-cover" autoplay loop muted>
+                        <source src="{{asset('assets/videos/bg2.mp4')}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
                 </div>
-            </div>
+                <!-- Overlay -->
+                <div class="absolute inset-0 bg-black bg-opacity-30"></div>
 
-
-            <div class="mx-auto lg:w-[80%] md:w-[90%] w-full">
-                <div class=" grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-12 lg:px-4 md:px-4 px-0 gap-6">
-                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
-                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/gallery1.jpg')}}}" alt="">
-                    </div>
-                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
-                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/gallery2.jpg')}}}" alt="">
-                    </div>
-                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
-                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/gallery3.jpg')}}}" alt="">
-                    </div>
-                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
-                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/gallery4.jpg')}}}" alt="">
-                    </div>
+                <!-- Content -->
+                <div class="relative z-10 flex items-center justify-center h-full">
+                    <!-- Add your content here -->
                 </div>
             </div>
-
-
         </div>
     </div>
 </x-layout>

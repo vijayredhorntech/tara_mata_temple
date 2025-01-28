@@ -28,7 +28,26 @@
                         <img src="{{asset('assets/images/aboutRightImgage.jpg')}}" alt="">
                     </div>
                 </div>
+                <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-2">
+                      <div class="w-full p-4">
+                          <img src="{{asset('assets/images/original/4.JPG')}}" class="w-full h-auto rounded-tl-[20px] rounded-br-[20px]" alt="">
+                      </div>
+                      <div class="w-full p-4">
+                          <img src="{{asset('assets/images/original/6.JPG')}}" class="w-full h-auto rounded-tl-[20px] rounded-br-[20px]" alt="">
+                      </div>
+                </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
             <div class="w-full mt-12  flex flex-col items-center">
                 <div class="bg-white flex flex-col items-center mx-auto">
                     <span class="lg:text-3xl md:text-3xl sm:text-2xl text-2xl font-semibold text-primary text-center">Gallery</span>

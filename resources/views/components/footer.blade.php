@@ -3,5 +3,5 @@
          alt="">
 </div>
 <div class="w-full bg-primary py-2 text-lg flex justify-center items-center px-4 text-white">
-     <span>Copyright © 2024 TaraMataJunga. Developed by <a class="font-bold underline" href="https://himsoftsolution.com">Him Soft Solution</a></span>
+     <span>Copyright © 2025 TaraMataJunga. Developed by <a class="font-bold underline" href="https://himsoftsolution.com">Him Soft Solution</a></span>
 </div>

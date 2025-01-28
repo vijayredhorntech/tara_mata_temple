@@ -1,7 +1,7 @@
 <x-layout>
     <div class="pt-16">
         <div>
-            <img class="w-full lg:h-[300px] object-cover" src="{{asset('assets/images/slider2.jpg')}}"
+            <img class="w-full lg:h-[300px] object-cover" src="{{asset('assets/images/original/5.JPG')}}"
                  alt="Image 1">
         </div>
         <div class="w-full p-4 mt-6">
@@ -18,6 +18,41 @@
             </div>
             <div class="mx-auto lg:w-[80%] md:w-[90%] w-full">
                 <div class=" grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-12 lg:px-4 md:px-4 px-0 gap-6">
+
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/1.JPG')}}}" alt="">
+                    </div>
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/2.JPG')}}}" alt="">
+                    </div>
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/3.JPG')}}}" alt="">
+                    </div>
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/4.JPG')}}}" alt="">
+                    </div>
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/5.JPG')}}}" alt="">
+                    </div>
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/6.JPG')}}}" alt="">
+                    </div>
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/7.JPG')}}}" alt="">
+                    </div>
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/8.JPG')}}}" alt="">
+                    </div>
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/9.JPG')}}}" alt="">
+                    </div>
+                    <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
+                        <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/original/10.JPG')}}}" alt="">
+                    </div>
+
+
+
+
                     <div class="w-full h-64 rounded-md p-[2px] cursor-pointer group" style="background-image: url({{asset('assets/images/bgPattern.jpg')}})">
                         <img class="w-full h-full rounded-md object-cover group-hover:scale-95 transition ease-in duration-2000" src="{{{asset('assets/images/gallery1.jpg')}}}" alt="">
                     </div>

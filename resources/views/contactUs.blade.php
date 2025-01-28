@@ -1,7 +1,7 @@
 <x-layout>
     <div class="pt-16">
         <div>
-            <img class="w-full lg:h-[300px] object-cover" src="{{asset('assets/images/slider2.jpg')}}"
+            <img class="w-full lg:h-[300px] object-cover" src="{{asset('assets/images/original/10.JPG')}}"
                  alt="Image 1">
         </div>
 
