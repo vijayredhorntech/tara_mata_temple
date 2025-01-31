@@ -37,7 +37,7 @@
                     <div class="w-full bg-white rounded-md shadow-lg shadow-black/20 flex flex-col justify-between group">
                         <div class="w-full bg-white">
                             <img class="w-full h-52" src="{{asset('assets/images/news1.jpg')}}" alt="">
-                            <div class="px-2 pt-6 flex flex-col gap-2">
+                            <div class="px-2 py-6 flex flex-col gap-2">
                                 <span class="text-black font-semibold group-hover:text-primary text-[20px] transition ease-in duration-2000">गांव वासियों के सहयोग से मंदिर में स्तम्भ स्थापित किये गये</span>
                                 <p class="text-primary text-sm font-semibold">NEWS. MARCH 28, 2023</p>
                                 <p class="text-black/70 text-sm font-normal mt-4">गांव वासियों के सहयोग से मंदिर में स्तम्भ स्थापित किये गये</p>
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                         <div class="px-4 pb-4">
-                            <button class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Contribute <i class="fa fa-angles-right ml-4"></i></span>  </button>
+                            <a href="{{route('donation')}}" class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Contribute <i class="fa fa-angles-right ml-4"></i></span>  </a>
                         </div>
                     </div>
                     <div class="w-full bg-white rounded-md shadow-lg shadow-black/20 flex flex-col justify-between">
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="px-4 pb-4">
-                            <button class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Contribute <i class="fa fa-angles-right ml-4"></i></span>  </button>
+                            <a href="{{route('donation')}}" class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Contribute <i class="fa fa-angles-right ml-4"></i></span>  </a>
                         </div>
                     </div>
                     <div class="w-full bg-white rounded-md shadow-lg shadow-black/20 flex flex-col justify-between">
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                         <div class="px-4 pb-4">
-                            <button class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Contribute <i class="fa fa-angles-right ml-4"></i></span>  </button>
+                            <a href="{{route('donation')}}" class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Contribute <i class="fa fa-angles-right ml-4"></i></span>  </a>
                         </div>
                     </div>
                     <div class="w-full bg-white rounded-md shadow-lg shadow-black/20 flex flex-col justify-between">
@@ -121,14 +121,14 @@
                             </div>
                         </div>
                         <div class="px-4 pb-4">
-                            <button class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Contribute <i class="fa fa-angles-right ml-4"></i></span>  </button>
+                            <a href="{{route('donation')}}" class=" flex items-center justify-center w-full bg-primary text-white font-semibold p-2 rounded-md mt-4 text-lg border-[1px] border-primary hover:bg-white hover:text-primary transition ease-in duration-2000"><span class="animate-pulse flex items-center"> Contribute <i class="fa fa-angles-right ml-4"></i></span>  </a>
                         </div>
                     </div>
                 </div>
             </div>
 
 
-            <div class="relative w-full rounded-md  grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 ">
+            <div class="relative w-full rounded-md overflow-hidden grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 ">
                 <!-- Background Video -->
                 <div>
                     <img src="{{asset('assets/images/original/6.JPG')}}" alt="">
